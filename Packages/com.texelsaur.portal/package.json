@@ -1,0 +1,27 @@
+{
+  "name": "com.texelsaur.portal",
+  "displayName": "TXL - PortalTXL",
+  "author": {
+  	"name": "Texelsaur",
+  	"email": "",
+  	"url": "https://texelsaurus.com"
+  },
+  "version": "1.0.0",
+  "description": "Prefab to support creating interactive VR/real-world portals",
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.udonsharp": "^1.1.8",
+	"com.texelsaur.common": "^1.0.0",
+	"com.texelsaur.access": "^1.0.0",
+	"com.texelsaur.misc": "^1.0.0",
+	"com.texelsaur.playeraudio": "^1.0.0",
+	"com.texelsaur.video": "^1.0.0"
+  },
+  "legacyFolders": {
+  	"Assets\\Texel\\Portal": "eda1ad4b4cabe694a9023a767e95d0e9"
+  },
+  "legacyFiles": {},
+  "dependencies": {
+    "com.vrchat.udonsharp": ""
+  }
+}
