@@ -29,10 +29,10 @@
   	"Assets\\Texel\\Editor\\ACL": "d7477807343521140a364e80cfaf16e1",
   	"Assets\\Texel\\Editor\\Common\\ACL": "65d3dc0a981654c42bddb68d3df9537b"
   },
-  "legacyFiles": {}
+  "legacyFiles": {
   	"Assets\\Texel\\Editor\\Common\\EditorTools.cs": "bf2c707af7283de498e934204c342c06",
   	"Assets\\Texel\\Video\\Textures\\UI\\ui_atlas.png": "a1d53f153b56ac4ca4eaa6ba39a8ee4"
-  ,
+  },
   "dependencies": {
     "com.vrchat.udonsharp": ""
   }
