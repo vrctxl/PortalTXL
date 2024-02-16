@@ -183,6 +183,7 @@ MonoBehaviour:
   latchUntilLeave: 0
   latchUntilEnter: 0
   forceColliderCheck: 0
+  recalcCollidersOnStart: 0
   debugLog: {fileID: 0}
   vrcLog: 0
 --- !u!114 &413169550
@@ -426,6 +427,7 @@ MonoBehaviour:
   latchUntilLeave: 0
   latchUntilEnter: 0
   forceColliderCheck: 0
+  recalcCollidersOnStart: 0
   debugLog: {fileID: 0}
   vrcLog: 0
 --- !u!114 &2031668610
@@ -980,6 +982,7 @@ MonoBehaviour:
   latchUntilLeave: 0
   latchUntilEnter: 0
   forceColliderCheck: 0
+  recalcCollidersOnStart: 0
   debugLog: {fileID: 0}
   vrcLog: 0
 --- !u!114 &2485045419510842213
@@ -1556,6 +1559,7 @@ MonoBehaviour:
   latchUntilLeave: 0
   latchUntilEnter: 0
   forceColliderCheck: 1
+  recalcCollidersOnStart: 0
   debugLog: {fileID: 0}
   vrcLog: 0
 --- !u!114 &2485045419579568434
@@ -3218,6 +3222,7 @@ MonoBehaviour:
   latchUntilLeave: 0
   latchUntilEnter: 0
   forceColliderCheck: 0
+  recalcCollidersOnStart: 0
   debugLog: {fileID: 0}
   vrcLog: 0
 --- !u!114 &2485045421151297093
@@ -5665,6 +5670,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1520464436338986531, guid: 97db1bdf98e09864dbab454706b5f1df,
         type: 3}
+    - target: {fileID: 4783919102628003764, guid: 97db1bdf98e09864dbab454706b5f1df,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 4783919102628003764, guid: 97db1bdf98e09864dbab454706b5f1df,
+        type: 3}
     - target: {fileID: 6971946623105177536, guid: 97db1bdf98e09864dbab454706b5f1df,
         type: 3}
       propertyPath: _syncMethod
@@ -5821,6 +5832,12 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4783919102628003764, guid: 97db1bdf98e09864dbab454706b5f1df,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 4783919102628003764, guid: 97db1bdf98e09864dbab454706b5f1df,
+        type: 3}
     - target: {fileID: 6971946623105177536, guid: 97db1bdf98e09864dbab454706b5f1df,
         type: 3}
       propertyPath: _syncMethod
@@ -5992,6 +6009,12 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4783919102628003764, guid: 97db1bdf98e09864dbab454706b5f1df,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 4783919102628003764, guid: 97db1bdf98e09864dbab454706b5f1df,
+        type: 3}
     - target: {fileID: 6971946623105177536, guid: 97db1bdf98e09864dbab454706b5f1df,
         type: 3}
       propertyPath: _syncMethod
@@ -6044,12 +6067,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4840175937064743, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
-    - target: {fileID: 228315137021148542, guid: a542dfae83da68d4f934ffb13f4ca051,
+    - target: {fileID: 803231145084768296, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 228315137021148542, guid: a542dfae83da68d4f934ffb13f4ca051,
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 803231145084768296, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 803231146322513731, guid: a542dfae83da68d4f934ffb13f4ca051,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 803231146322513731, guid: a542dfae83da68d4f934ffb13f4ca051,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 803231146322513731, guid: a542dfae83da68d4f934ffb13f4ca051,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1886897427433219527, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -6221,12 +6263,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4275644922617259808, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
-    - target: {fileID: 4434389186080849162, guid: a542dfae83da68d4f934ffb13f4ca051,
-        type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 4434389186080849162, guid: a542dfae83da68d4f934ffb13f4ca051,
-        type: 3}
     - target: {fileID: 4662422859424588652, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
       propertyPath: serializationData.Prefab
@@ -6254,6 +6290,12 @@ PrefabInstance:
       propertyPath: audioGroups.Array.data[1]
       value: 
       objectReference: {fileID: 2835621850037087871}
+    - target: {fileID: 5302426803481293042, guid: a542dfae83da68d4f934ffb13f4ca051,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 5302426803481293042, guid: a542dfae83da68d4f934ffb13f4ca051,
+        type: 3}
     - target: {fileID: 5880004746096928149, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
       propertyPath: serializationData.Prefab
@@ -6266,15 +6308,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5890109665274408712, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
-    - target: {fileID: 6705489326234273782, guid: a542dfae83da68d4f934ffb13f4ca051,
-        type: 3}
-      propertyPath: serializationData.Prefab
-      value: 
-      objectReference: {fileID: 6705489326234273782, guid: a542dfae83da68d4f934ffb13f4ca051,
-        type: 3}
     - target: {fileID: 6711150963773800961, guid: a542dfae83da68d4f934ffb13f4ca051,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760059902347681046, guid: a542dfae83da68d4f934ffb13f4ca051,
+        type: 3}
+      propertyPath: serializedPublicVariablesBytesString
+      value: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760059902347681046, guid: a542dfae83da68d4f934ffb13f4ca051,
+        type: 3}
+      propertyPath: publicVariablesUnityEngineObjects.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6991397203471340681, guid: a542dfae83da68d4f934ffb13f4ca051,
