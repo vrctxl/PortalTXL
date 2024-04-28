@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.3] - 04-27-24
+
+- PortalManager takes a ZoneTrigger instead of AudioOverrideZone for bot zone
+- Stream control checks for zones before using them, exposes zone properties
+- Added PortalAudioConfig to dynamically set audio zones on stream control
+
 ## [1.0.2] - 02-15-24
 
 - Removed empty Editor assembly definition that caused harmless warning in console
