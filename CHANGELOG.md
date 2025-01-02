@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.4] - 01-01-25
+
+- Removed "Basic Chair" component from bot station, which may have prevented station events from being seen
+
 ## [1.0.3] - 04-27-24
 
 - PortalManager takes a ZoneTrigger instead of AudioOverrideZone for bot zone

@@ -6,7 +6,7 @@
     "email": "",
     "url": "https://texelsaurus.com"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Prefab to support creating interactive VR/real-world portals",
   "gitDependencies": {},
   "vpmDependencies": {
